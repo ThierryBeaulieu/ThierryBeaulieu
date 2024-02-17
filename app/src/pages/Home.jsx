@@ -6,12 +6,14 @@ function HomePage() {
       <main>
         <section>
           <h2>Home page</h2>
-          <img
-            alt='thierrys-picture'
-            id='headshot'
-            src='../assets/headshot2.jpg'
-            className='headshot'
-          ></img>
+          <div className='headShot-container'>
+            <img
+              alt='thierry-picture'
+              id='headShot'
+              src='../assets/headshot2.jpg'
+              className='headShot'
+            ></img>
+          </div>
         </section>
       </main>
     </>
