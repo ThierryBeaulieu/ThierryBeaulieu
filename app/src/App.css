@@ -1,3 +1,8 @@
+:root {
+  --background-color: #ffffff;
+  --primary-color: #17191F;
+}
+
 /* App.css */
 html {
   position: relative;
@@ -66,6 +71,7 @@ footer {
   width: 200px;
   height: 200px;
   overflow: hidden;
+  border-radius: 50%;
 }
 
 .headShot-container img {
