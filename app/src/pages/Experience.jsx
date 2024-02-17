@@ -35,6 +35,7 @@ function ExperiencePage() {
                   className='company-logo'
                 ></img>
               </div>
+              <span className='duration-description'>Internship May 2022 - Aug 2022 · 4 mos</span>
             </div>
           </div>
         </section>
