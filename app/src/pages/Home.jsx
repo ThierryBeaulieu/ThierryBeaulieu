@@ -5,8 +5,10 @@ function HomePage() {
     <>
       <main>
         <section>
-          <div className='presentation-container'>
-            <img alt='won-prices' id='CQI-2024' src='../assets/cqi-2024.JPG'></img>
+          <div className='presentation-wrapper '>
+            <div className='presentation-container'>
+              <img alt='won-prices' id='CQI-2024' src='../assets/cqi-2024.JPG'></img>
+            </div>
           </div>
 
           <h2>Home page</h2>
