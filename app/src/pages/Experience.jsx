@@ -4,6 +4,7 @@ import Post from '../components/Post';
 function ExperiencePage() {
   const ubisoft = {
     year: `Summer 2022`,
+    title: `Game Engine Developer Intern`,
     company: 'Ubisoft',
     description1: `Integrated debugging functionalities into the ImGui debugging tool utilized in Assassin's Creed development.`,
     description2: `Addressed hotkey conflicts, enhancing productivity with a streamlined workflow for development teams.`,
@@ -14,6 +15,7 @@ function ExperiencePage() {
 
   const genetec = {
     year: `Winter 2023`,
+    title: `Firmware Engineer Intern`,
     company: 'Genetec',
     description1: `Efficiently tackled multiple bugs and regressions on custom images generated through the Yocto Project, resulting in uninterrupted device production and a substantial improvement in firmware effectiveness.`,
     description2: `Engineered a firmware update that enables cameras to seamlessly migrate from Windows to Linux operating systems, significantly extending product lifespan, reducing maintenance costs, and up to a 45% reduction in disk space usage.`,
@@ -22,7 +24,29 @@ function ExperiencePage() {
     logo: `../assets/genetec_logo.png`,
   };
 
-  const experiences = [ubisoft, genetec];
+  const autodesk = {
+    year: `Summer 2023`,
+    title: `Maya Software Engineering Intern`,
+    company: 'Autodesk',
+    description1: `Resolved longstanding legacy issues persisting for over a decade by leveraging an in-depth grasp of compilers. Skillfully diagnosed and rectified these issues, resulting in enhanced system stability and minimized occurrences of crashes of Maya.`,
+    description2: `Played a key role in the migration from Qt5 to Qt6, enabling the adoption of new Qt6 features. During this transition, adeptly addressed numerous bugs and challenges, leveraging advanced proficiency in Python and C++ as well as expert debugging skills.`,
+    description3: `Streamlined user experience by restructuring the presentation of user plugins for editing, leading to a reduction in complexity and improved Maya's usability.`,
+    duration: `May 2023 - Aug 2023 · 4 months internship`,
+    logo: `../assets/autodesk-logo.svg`,
+  };
+
+  const polymtl = {
+    year: `2021 -`,
+    title: `Teaching Assistant`,
+    company: 'Polytechnique Montreal',
+    description1: `Developed educational materials for students to enhance their understanding of fundamental web development technologies, including HTML, Javascript, and CSS.`,
+    description2: `Provided students with exposure to various frameworks and libraries, such as React, MongoDb, and Node.js, to expand their skills in web development.`,
+    description3: `Developed educational materials whose focus is on learning object-oriented programming in C++.`,
+    duration: `2021 - Present · 3 years`,
+    logo: `../assets/poly.png`,
+  };
+
+  const experiences = [ubisoft, genetec, autodesk, polymtl];
 
   return (
     <>
