@@ -29,14 +29,12 @@ function HomePage() {
               </p>
             </div>
             <div className='headShot-wrapper'>
-              <div className='headShot-container'>
-                <img
-                  alt='thierry-picture'
-                  id='headShot'
-                  src='../assets/headshot2.jpg'
-                  className='headShot'
-                ></img>
-              </div>
+              <img
+                alt='thierry-picture'
+                id='headShot'
+                src='../assets/headshot2.jpg'
+                className='headShot'
+              ></img>
               <span className='headShot-description'>Thierry Beaulieu</span>
               <span className='headShot-description'>Author of this website</span>
             </div>
