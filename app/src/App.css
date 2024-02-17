@@ -2,7 +2,8 @@
   --background-color: #ffffff;
   --primary-color: #17191F;
   --primary-color-lighter: #808080;
-  
+  --accent-color: #224fde;
+  --secondary-color: #7362e0;
 }
 
 /* App.css */
@@ -24,6 +25,18 @@ body {
 }
 
 /* NavBar.css */
+
+.logo {
+  font-size: 25px;
+  padding-left: 40px;
+  margin: 0px;
+  font-weight: 600;
+  background: #224FDE;
+  background: linear-gradient(to right, #224FDE 0%, #7362E0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 header {
   background-color: var(--background-color);
   color: white;
@@ -33,7 +46,7 @@ header {
 nav ul {
   list-style-type: none;
   padding: 0;
-  text-align: center;
+  text-align: start;
 }
 
 nav ul li {

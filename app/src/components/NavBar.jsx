@@ -8,7 +8,9 @@ function NavBar() {
         <nav>
           <ul>
             <li>
-              <Link to='/home'>Home</Link>
+              <Link to='/' className='logo'>
+                Thierry Beaulieu
+              </Link>
             </li>
             <li>
               <Link to='/projects'>Projects</Link>
