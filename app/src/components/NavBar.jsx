@@ -6,7 +6,7 @@ function NavBar() {
     <>
       <header>
         <nav>
-          <ul className='flex-center'>
+          <ul>
             <li>
               <Link to='/home'>Home</Link>
             </li>
