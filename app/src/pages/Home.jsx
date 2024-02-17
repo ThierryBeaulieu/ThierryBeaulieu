@@ -49,7 +49,8 @@ function HomePage() {
               category (CEC)
             </div>
             <div className='award-description'>
-              Dominic Hains, Maxime Gaudreau, Gabriel Côté, Thierry Beaulieu (me)
+              From left to right: Juge #1, Juge #2, Dominic Hains, Maxime Gaudreau, Gabriel Côté,
+              Thierry Beaulieu (me), Juge #3
             </div>
           </div>
 
