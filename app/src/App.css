@@ -1,7 +1,16 @@
 /* App.css */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(227,229,229);
 }
 
 /* NavBar.css */
