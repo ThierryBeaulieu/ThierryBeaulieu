@@ -38,9 +38,15 @@ function HomePage() {
             </div>
           </div>
 
-          <div className='presentation-wrapper '>
-            <div className='presentation-container'>
-              <img alt='won-prices' id='CQI-2024' src='../assets/cqi-2024.JPG'></img>
+          <div className='award-presentation'>
+            <div className='presentation-wrapper '>
+              <div className='presentation-container'>
+                <img alt='won-prices' id='CQI-2024' src='../assets/cqi-2024.JPG'></img>
+              </div>
+            </div>
+            <div className='award-description'>
+              Winners of the 2024 edition of the Quebec Engineering Competition for the programming
+              category (CEC)
             </div>
           </div>
 

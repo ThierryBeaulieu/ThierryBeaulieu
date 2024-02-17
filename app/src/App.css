@@ -92,6 +92,13 @@ footer {
 
 /* Home.css */
 
+.award-description{
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px 20px 10px;
+  font-size: 14px;
+}
+
 .description-container {
   display: flex;
   flex-direction: column;
