@@ -74,6 +74,10 @@ nav ul li a:hover {
   color: var(--primary-color-lighter);
 }
 
+.navigation-element {
+  font-size: medium;
+}
+
 /* Footer.css */
 
 footer {
