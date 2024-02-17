@@ -1,6 +1,7 @@
 :root {
   --background-color: #ffffff;
   --primary-color: #17191F;
+  --primary-color-lighter: #808080;
   
 }
 
@@ -50,10 +51,11 @@ nav ul li a {
   font-size: 18px;
   padding: 10px 20px;
   border-radius: 5px;
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  background-color: #555;
+  color: var(--primary-color-lighter);
 }
 
 /* Footer.css */
