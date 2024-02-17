@@ -232,3 +232,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.job-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
