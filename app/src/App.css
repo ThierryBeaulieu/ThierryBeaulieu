@@ -103,3 +103,17 @@ footer {
   height: 100%;
   object-fit: cover;
 }
+
+.presentation-container {
+  width: 750px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.presentation-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
