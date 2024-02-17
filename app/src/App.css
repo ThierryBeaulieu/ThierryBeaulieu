@@ -97,9 +97,29 @@ footer {
 
 /* Home.css */
 
+.headShot-description {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+
+.headShot-description:last-child {
+  padding-top: 0px;
+  font-size: small;
+}
+
+.headShot-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .award-description{
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 20px 10px 10px 10px;
   font-size: 14px;
   font-style: italic;

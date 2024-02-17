@@ -28,13 +28,17 @@ function HomePage() {
                 </p>
               </p>
             </div>
-            <div className='headShot-container'>
-              <img
-                alt='thierry-picture'
-                id='headShot'
-                src='../assets/headshot2.jpg'
-                className='headShot'
-              ></img>
+            <div className='headShot-wrapper'>
+              <div className='headShot-container'>
+                <img
+                  alt='thierry-picture'
+                  id='headShot'
+                  src='../assets/headshot2.jpg'
+                  className='headShot'
+                ></img>
+              </div>
+              <span className='headShot-description'>Thierry Beaulieu</span>
+              <span className='headShot-description'>Author of this website</span>
             </div>
           </div>
 
@@ -53,8 +57,6 @@ function HomePage() {
               Thierry Beaulieu (me), Juge #3
             </div>
           </div>
-
-          <h2>Home page</h2>
         </section>
       </main>
     </>
