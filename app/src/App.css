@@ -2,7 +2,7 @@
   --background-color: #ffffff;
   --primary-color: #17191F;
   --primary-color-lighter: #808080;
-  --accent-color: #224fde;
+  --accent-color: #044FE7;
   --secondary-color: #7362e0;
 }
 
@@ -91,9 +91,40 @@ footer {
 }
 
 /* Home.css */
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-content {
+  text-align: justify;
+  padding-right: 40px;
+}
+
+.personal-presentation{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-wrapper {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.max-emphasis {
+  font-size: 80px;
+  color: var(--primary-color);
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
 .headShot-container  {
   width: 200px;
   height: 200px;
+  min-width: 200px;
+  min-height: 200px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -115,6 +146,7 @@ footer {
   height: 400px;
   overflow: hidden;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .presentation-container img {
