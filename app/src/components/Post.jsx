@@ -27,14 +27,16 @@ function Post({ experience }) {
           <span className='duration-description'>{experience.duration}</span>
         </div>
       </div>
-      <iframe
-        src={experience.linkedInSrc}
-        height='476'
-        width='504'
-        frameBorder='0'
-        allowfullscreen=''
-        title='Embedded post'
-      ></iframe>
+      {experience.linkedInSrc && (
+        <iframe
+          src={experience.linkedInSrc}
+          height='476'
+          width='504'
+          frameBorder='0'
+          allowfullscreen=''
+          title='Embedded post'
+        ></iframe>
+      )}
     </div>
   );
 }
