@@ -48,6 +48,9 @@ function HomePage() {
               Winners of the 2024 edition of the Quebec Engineering Competition for the programming
               category (CEC)
             </div>
+            <div className='award-description'>
+              Dominic Hains, Maxime Gaudreau, Gabriel Côté, Thierry Beaulieu (me)
+            </div>
           </div>
 
           <h2>Home page</h2>

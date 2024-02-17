@@ -100,8 +100,14 @@ footer {
 .award-description{
   display: flex;
   justify-content: center;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 10px 10px 10px;
   font-size: 14px;
+  font-style: italic;
+}
+
+.award-description:last-child{
+  padding: 0px 10px 20px 10px;
+  font-size: 12px;
 }
 
 .description-container {
