@@ -31,9 +31,12 @@ body {
   padding-left: 40px;
   margin: 0px;
   font-weight: 600;
-  background: #224FDE;
+  background-color: #224FDE;
+  background: -webkit-linear-gradient(to right, #224FDE 0%, #7362E0 100%);
   background: linear-gradient(to right, #224FDE 0%, #7362E0 100%);
   -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
