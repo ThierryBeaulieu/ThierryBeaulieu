@@ -28,7 +28,7 @@ function Post({ experience }) {
         </div>
       </div>
       <iframe
-        src='https://www.linkedin.com/embed/feed/update/urn:li:share:7100995938185265152'
+        src={experience.linkedInSrc}
         height='476'
         width='504'
         frameBorder='0'

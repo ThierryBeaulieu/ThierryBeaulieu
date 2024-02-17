@@ -11,6 +11,7 @@ function ExperiencePage() {
     description3: `Conducted in-depth analysis of thread synchronization anomalies within the order of input event handling, ensuring seamless performance.`,
     duration: `May 2022 - Aug 2022 · 4 months internship`,
     logo: `../assets/Ubisoft_logo.png`,
+    linkedInSrc: `https://www.linkedin.com/embed/feed/update/urn:li:share:6937981961403609088`,
   };
 
   const genetec = {
@@ -22,6 +23,7 @@ function ExperiencePage() {
     description3: `Acquired valuable knowledge about firmware, software, and hardware components of IoT devices, specifically cameras.`,
     duration: `Jan 2023 - Apr 2023 · 4 months internship`,
     logo: `../assets/genetec_logo.png`,
+    linkedInSrc: `https://www.linkedin.com/embed/feed/update/urn:li:share:7017207764074561537`,
   };
 
   const autodesk = {
@@ -33,6 +35,7 @@ function ExperiencePage() {
     description3: `Streamlined user experience by restructuring the presentation of user plugins for editing, leading to a reduction in complexity and improved Maya's usability.`,
     duration: `May 2023 - Aug 2023 · 4 months internship`,
     logo: `../assets/autodesk-logo.svg`,
+    linkedInSrc: `https://www.linkedin.com/embed/feed/update/urn:li:share:7100995938185265152`,
   };
 
   const polymtl = {
@@ -44,6 +47,7 @@ function ExperiencePage() {
     description3: `Developed educational materials whose focus is on learning object-oriented programming in C++.`,
     duration: `2021 - Present · 3 years`,
     logo: `../assets/poly.png`,
+    linkedInSrc: ``,
   };
 
   const experiences = [ubisoft, genetec, autodesk, polymtl];
