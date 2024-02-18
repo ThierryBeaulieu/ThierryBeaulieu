@@ -19,7 +19,7 @@ function ProjectPage() {
   return (
     <>
       <main>
-        <section>
+        <section className='home-wrapper'>
           {project.map((project) => (
             <ProjectPost project={project} key={project} />
           ))}
