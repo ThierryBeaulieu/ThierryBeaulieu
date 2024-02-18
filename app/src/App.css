@@ -97,6 +97,11 @@ footer {
 
 footer a {
   text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer a:hover {
+  color: var(--primary-color-lighter);
 }
 
 /* Home.css */
