@@ -1,6 +1,6 @@
 import '../App.css';
 
-function Post({ experience }) {
+function ExperiencePost({ experience }) {
   return (
     <div className='job-wrapper'>
       <div className='job-presentation'>
@@ -41,4 +41,4 @@ function Post({ experience }) {
   );
 }
 
-export default Post;
+export default ExperiencePost;

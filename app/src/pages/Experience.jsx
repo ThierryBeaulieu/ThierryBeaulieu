@@ -1,5 +1,5 @@
 import '../App.css';
-import Post from '../components/Post';
+import ExperiencePost from '../components/ExperiencePost';
 
 function ExperiencePage() {
   const ubisoft = {
@@ -50,14 +50,14 @@ function ExperiencePage() {
     linkedInSrc: ``,
   };
 
-  const experiences = [ubisoft, genetec, autodesk, polymtl];
+  const experiences = [autodesk, genetec, ubisoft, polymtl];
 
   return (
     <>
       <main>
         <section className='home-wrapper'>
           {experiences.map((experience) => (
-            <Post experience={experience} key={experience} />
+            <ExperiencePost experience={experience} key={experience} />
           ))}
         </section>
       </main>
