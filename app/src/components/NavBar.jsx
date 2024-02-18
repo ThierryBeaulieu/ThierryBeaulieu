@@ -13,10 +13,9 @@ function NavBar() {
               </Link>
             </li>
             <li>
-              <Link to='/projects' className='navigation-element'>Projects</Link>
-            </li>
-            <li>
-              <Link to='/experiences' className='navigation-element'>Experiences</Link>
+              <Link to='/experiences' className='navigation-element'>
+                Experiences
+              </Link>
             </li>
           </ul>
         </nav>

@@ -2,9 +2,9 @@ import '../App.css';
 import ProjectPost from '../components/ProjectPost';
 
 function ProjectPage() {
-  const ubisoft = {
-    year: `Summer 2022`,
-    title: `Game Engine Developer Intern`,
+  const robot = {
+    year: `Winter 2022`,
+    title: ``,
     company: 'Ubisoft',
     description1: `Integrated debugging functionalities into the ImGui debugging tool utilized in Assassin's Creed development.`,
     description2: `Addressed hotkey conflicts, enhancing productivity with a streamlined workflow for development teams.`,
@@ -14,7 +14,7 @@ function ProjectPage() {
     linkedInSrc: `https://www.linkedin.com/embed/feed/update/urn:li:share:6937981961403609088`,
   };
 
-  const project = [ubisoft];
+  const project = [robot];
 
   return (
     <>
