@@ -30,9 +30,7 @@ jobs:
 
       - name: Zip artifact for deployment
         run: |
-          cd app
-          cd dist
-          zip release.zip ./* -r
+          zip release.zip ./dist -r
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
