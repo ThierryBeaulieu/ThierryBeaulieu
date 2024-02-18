@@ -104,6 +104,11 @@ footer a:hover {
   color: var(--primary-color-lighter);
 }
 
+.footer-wrapper a{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Home.css */
 
 .headShot-description {
