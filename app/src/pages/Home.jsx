@@ -33,7 +33,7 @@ function HomePage() {
                 <img
                   alt='thierry-picture'
                   id='headShot'
-                  src='../assets/headshot2.jpg'
+                  src='./assets/headshot2.jpg'
                   className='headShot'
                 ></img>
               </div>
