@@ -4,7 +4,9 @@ function Footer() {
   return (
     <>
       <footer>
-        <a href='mailto:thierry.abeaulieu@gmail.com'>thierry.abeaulieu@gmail.com</a>
+        <a href='mailto:thierry.abeaulieu@gmail.com'>
+          <i className='fa-regular fa-envelope'></i> thierry.abeaulieu@gmail.com
+        </a>
       </footer>
     </>
   );
