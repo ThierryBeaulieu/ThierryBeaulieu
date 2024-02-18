@@ -30,8 +30,8 @@ function Post({ experience }) {
       {experience.linkedInSrc && (
         <iframe
           src={experience.linkedInSrc}
-          height='476'
-          width='504'
+          height='500'
+          width='600'
           frameBorder='0'
           allowfullscreen=''
           title='Embedded post'

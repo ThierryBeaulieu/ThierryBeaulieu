@@ -95,6 +95,10 @@ footer {
   min-width: 750px;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 /* Home.css */
 
 .headShot-description {

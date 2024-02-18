@@ -3,7 +3,9 @@ import '../App.css';
 function Footer() {
   return (
     <>
-      <footer>thierry.abeaulieu@gmail.com</footer>
+      <footer>
+        <a href='mailto:thierry.abeaulieu@gmail.com'>thierry.abeaulieu@gmail.com</a>
+      </footer>
     </>
   );
 }
