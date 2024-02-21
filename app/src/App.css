@@ -252,3 +252,8 @@ footer a:hover {
   align-items: center;
   flex-direction: column;
 }
+
+#container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
