@@ -1,12 +1,11 @@
 import '../App.css';
-import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
     <Navbar expand='lg'>
-      <Navbar.Brand as={Link} to='/'>
+      <Navbar.Brand as={Link} className='logo' to='/'>
         Thierry Beaulieu
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
