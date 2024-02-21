@@ -17,6 +17,11 @@ function NavBar() {
                 Experiences
               </Link>
             </li>
+            <li>
+              <Link to='/about' className='navigation-element'>
+                About
+              </Link>
+            </li>
           </ul>
         </nav>
       </header>
