@@ -6,7 +6,17 @@ function HomePage() {
       <main>
         <section>
           <div className='container'>
-            <div className='row'>
+            <div className='row flex-md-row-reverse'>
+              <div className='col-md-5 col-sm-auto d-flex justify-content-center align-items-center'>
+                <div className='headShot-container'>
+                  <img
+                    alt='thierry-picture'
+                    id='headShot'
+                    src='./assets/headshot2.jpg'
+                    className='headShot'
+                  />
+                </div>
+              </div>
               <div className='col-md-7 col-sm-auto'>
                 <h1 className='display-1'>Hello world!</h1>
                 <div
@@ -28,16 +38,6 @@ function HomePage() {
                     about being creative, solving real problems, and working together. Can't wait to
                     see what's next!
                   </p>
-                </div>
-              </div>
-              <div className='col-md-5 col-sm-auto d-flex justify-content-center align-items-center'>
-                <div className='headShot-container'>
-                  <img
-                    alt='thierry-picture'
-                    id='headShot'
-                    src='./assets/headshot2.jpg'
-                    className='headShot'
-                  />
                 </div>
               </div>
             </div>
