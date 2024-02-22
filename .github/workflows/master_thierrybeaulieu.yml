@@ -61,4 +61,4 @@ jobs:
           app-name: 'ThierryBeaulieu'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_801971379FC4431F972F36AEE17ABE52 }}
-          package: .
+          package: ./app/dist
