@@ -17,9 +17,6 @@ function NavBar() {
           <Nav.Link as={Link} to='/projects'>
             Projets
           </Nav.Link>
-          <Nav.Link as={Link} to='/about'>
-            About
-          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
