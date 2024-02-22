@@ -8,7 +8,7 @@ function HomePage() {
           <div className='personal-presentation'>
             <div className='description-container'>
               <h1 className='max-emphasis'>Hello world!</h1>
-              <p className='description-content'>
+              <div className='description-content'>
                 <p>
                   Hello! Allow me to introduce myself, I'm a software engineering student at
                   Polytechnique Montreal.
@@ -26,7 +26,7 @@ function HomePage() {
                   being creative, solving real problems, and working together. Can't wait to see
                   what's next!
                 </p>
-              </p>
+              </div>
             </div>
             <div className='headShot-wrapper'>
               <div className='headShot-container'>
