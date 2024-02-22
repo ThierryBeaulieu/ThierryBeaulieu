@@ -24,25 +24,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-/*
-        <nav>
-          <ul>
-            <li>
-              <Link to='/' className='logo'>
-                Thierry Beaulieu
-              </Link>
-            </li>
-            <li>
-              <Link to='/experiences' className='navigation-element'>
-                Experiences
-              </Link>
-            </li>
-            <li>
-              <Link to='/about' className='navigation-element'>
-                About
-              </Link>
-            </li>
-          </ul>
-        </nav>
-*/
