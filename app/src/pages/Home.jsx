@@ -6,6 +6,7 @@ function HomePage() {
       <main>
         <section>
           <div className='container'>
+            <h1 className='display-1'>Hello world!</h1>
             <div className='row flex-md-row-reverse'>
               <div className='col-md-5 col-sm-auto d-flex justify-content-center align-items-center'>
                 <div className='headShot-container'>
@@ -18,7 +19,6 @@ function HomePage() {
                 </div>
               </div>
               <div className='col-md-7 col-sm-auto'>
-                <h1 className='display-1'>Hello world!</h1>
                 <div
                   className='description-content text-justify'
                   style={{ padding: '0', margin: '0' }}
