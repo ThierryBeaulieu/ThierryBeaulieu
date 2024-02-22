@@ -4,7 +4,6 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import ProjectPage from './pages/Projects';
 import ExperiencePage from './pages/Experience';
-import AboutPage from './pages/About';
 import './App.css';
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
     { path: '/home', element: <HomePage /> },
     { path: '/projects', element: <ProjectPage /> },
     { path: '/experiences', element: <ExperiencePage /> },
-    { path: '/about', element: <AboutPage /> },
     { path: '/', element: <HomePage /> },
   ];
 
