@@ -132,10 +132,7 @@ footer a:hover {
   font-size: 12px;
 }
 
-.description-container {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .description-content {
   text-align: justify;
@@ -197,22 +194,7 @@ footer a:hover {
 }
 
 /* Experiences.css */
-.job-description li{
-  padding-bottom: 30px;
-}
 
-.job-presentation {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.job-wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 #container {
   padding-left: 30px;
