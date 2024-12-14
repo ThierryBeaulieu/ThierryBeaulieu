@@ -9,23 +9,21 @@ function HomePage() {
             <div>
               <h1>Hello world!</h1>
               <p>
-                <p>
-                  Hello! Allow me to introduce myself, I'm a software engineering student at
-                  Polytechnique Montreal.
-                </p>
+                Hello! Allow me to introduce myself, I'm a software engineering student at
+                Polytechnique Montreal.
+              </p>
 
-                <p>
-                  I have acquired valuable professional experience in both the gaming industry and
-                  cybersecurity. These roles have significantly contributed to my skill set,
-                  providing me with comprehensive knowledge and expertise in these dynamic fields.
-                </p>
+              <p>
+                I have acquired valuable professional experience in both the gaming industry and
+                cybersecurity. These roles have significantly contributed to my skill set, providing
+                me with comprehensive knowledge and expertise in these dynamic fields.
+              </p>
 
-                <p>
-                  I genuinely love diving into new tech stuff and teaming up with people. I'm always
-                  up for getting my hands dirty in fresh projects. To me, software is all about
-                  being creative, solving real problems, and working together. Can't wait to see
-                  what's next!
-                </p>
+              <p>
+                I genuinely love diving into new tech stuff and teaming up with people. I'm always
+                up for getting my hands dirty in fresh projects. To me, software is all about being
+                creative, solving real problems, and working together. Can't wait to see what's
+                next!
               </p>
             </div>
           </div>
