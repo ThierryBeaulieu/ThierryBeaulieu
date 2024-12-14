@@ -90,30 +90,4 @@ nav ul li a:hover {
 
 /* Footer.css */
 
-footer {
-  background-color: var(--background-color);
-  padding-top: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  height: 40px;
-  min-width: 750px;
-}
-
-footer a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-footer a:hover {
-  color: var(--primary-color-lighter);
-}
-
-.footer-wrapper a{
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-
 @import "../node_modules/bootstrap/scss/bootstrap";
