@@ -1,9 +1,22 @@
-:root {
-  --background-color: #f2f2f2;
-  --primary-color: #00060d;
-  --secondary-color: #1b2b40;
-  --call-to-action-color: #bf5934;
-}
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$body-bg: #f2f2f2;
+$primary: #00060d;
+$secondary: #1b2b40;
+$highlight: #bf5934;
+
+$custom-theme-colors:map-merge($theme-colors, (
+  "body-bg": $body-bg,
+  "primary": $primary,
+  "secondary": $secondary,
+  "highlight": $highlight 
+));
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 /* App.css */
 html {

@@ -1,4 +1,4 @@
-import '../App.css';
+import '../App.scss';
 import ProjectPost from '../components/ProjectPost';
 
 function ProjectPage() {

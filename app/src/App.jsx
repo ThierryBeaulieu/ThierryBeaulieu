@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import ProjectPage from './pages/Projects';
 import ExperiencePage from './pages/Experience';
-import './App.css';
+import '../src/App.scss';
 
 function App() {
   const routes = [

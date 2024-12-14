@@ -1,11 +1,11 @@
-import '../App.css';
+import '../App.scss';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
     <Navbar expand='lg'>
-      <Navbar.Brand as={Link} className='main-title' to='/'>
+      <Navbar.Brand as={Link} className='text-highlight' to='/'>
         Thierry Beaulieu
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
