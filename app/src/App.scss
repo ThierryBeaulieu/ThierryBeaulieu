@@ -6,12 +6,14 @@ $body-bg: #f2f2f2;
 $primary: #00060d;
 $secondary: #1b2b40;
 $highlight: #bf5934;
+$text-primary-font-weight: 600;
+
 
 $custom-theme-colors:map-merge($theme-colors, (
   "body-bg": $body-bg,
   "primary": $primary,
   "secondary": $secondary,
-  "highlight": $highlight 
+  "highlight": $highlight,
 ));
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
