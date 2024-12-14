@@ -3,7 +3,7 @@ import '../App.scss';
 function Footer() {
   return (
     <>
-      <div>
+      <div className='container'>
         <svg xmlns='http://www.w3.org/2000/svg' className='d-none'>
           <symbol id='bootstrap' viewBox='0 0 118 94'>
             <title>Bootstrap</title>
