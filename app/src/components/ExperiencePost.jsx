@@ -15,28 +15,7 @@ function ExperiencePost({ experience }) {
             </ul>
           </p>
         </div>
-        <div className='headShot-wrapper'>
-          <div className='logo-container'>
-            <img
-              alt='compagny-picture'
-              id='headShot'
-              src={experience.logo}
-              className='company-logo'
-            ></img>
-          </div>
-          <span className='duration-description'>{experience.duration}</span>
-        </div>
       </div>
-      {experience.linkedInSrc && (
-        <iframe
-          src={experience.linkedInSrc}
-          height='500'
-          width='600'
-          frameBorder='0'
-          allowfullscreen=''
-          title='Embedded post'
-        ></iframe>
-      )}
     </div>
   );
 }

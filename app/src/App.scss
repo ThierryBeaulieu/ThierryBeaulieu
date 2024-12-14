@@ -118,25 +118,6 @@ footer a:hover {
 
 /* Home.css */
 
-.headShot-description {
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-style: italic;
-}
-
-.headShot-second-description {
-  padding-top: 0px;
-  font-size: small;
-}
-
-.headShot-wrapper{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .award-description{
   display: flex;
   justify-content: center;
@@ -216,26 +197,6 @@ footer a:hover {
 }
 
 /* Experiences.css */
-
-.company-name {
-  margin-bottom: 0px;
-}
-
-.company-logo {
-  width: 100px;
-  height: 100px;
-}
-
-.logo-container  {
-  width: 200px;
-}
-
-.logo-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .job-description li{
   padding-bottom: 30px;
 }
@@ -244,14 +205,6 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.duration-description{
-  padding-top: 10px;
-  display: flex;
-  font-style: italic;
-  justify-content: center;
-  align-items: center;
 }
 
 .job-wrapper{
