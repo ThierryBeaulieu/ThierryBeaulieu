@@ -4,11 +4,11 @@ function HomePage() {
   return (
     <>
       <main>
-        <section className='home-wrapper'>
-          <div className='personal-presentation'>
-            <div className='description-container'>
-              <h1 className='max-emphasis'>Hello world!</h1>
-              <p className='description-content'>
+        <section>
+          <div>
+            <div>
+              <h1>Hello world!</h1>
+              <p>
                 <p>
                   Hello! Allow me to introduce myself, I'm a software engineering student at
                   Polytechnique Montreal.
@@ -30,17 +30,17 @@ function HomePage() {
             </div>
           </div>
 
-          <div className='award-presentation'>
-            <div className='presentation-wrapper '>
-              <div className='presentation-container'>
-                <img alt='won-prices' id='CQI-2024' src='../assets/cqi-2024.JPG'></img>
+          <div>
+            <div>
+              <div>
+                <img alt='won-prices' src='../assets/cqi-2024.JPG'></img>
               </div>
             </div>
-            <div className='award-description'>
+            <div>
               Winners of the 2024 edition of the Quebec Engineering Competition for the programming
               category (CEC)
             </div>
-            <div className='award-description'>
+            <div>
               From left to right: Juge #1, Juge #2, Dominic Hains, Maxime Gaudreau, Gabriel Côté,
               Thierry Beaulieu (me), Juge #3
             </div>

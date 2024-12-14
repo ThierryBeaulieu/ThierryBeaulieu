@@ -18,7 +18,6 @@ $custom-theme-colors:map-merge($theme-colors, (
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
-@import "../node_modules/bootstrap/scss/bootstrap";
 
 /* App.css */
 html {
@@ -116,87 +115,5 @@ footer a:hover {
   padding-right: 15px;
 }
 
-/* Home.css */
 
-.award-description{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 10px 10px 10px;
-  font-size: 14px;
-  font-style: italic;
-}
-
-.award-description:last-child{
-  padding: 0px 10px 20px 10px;
-  font-size: 12px;
-}
-
-
-
-.description-content {
-  text-align: justify;
-  padding-right: 40px;
-}
-
-.personal-presentation{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.home-wrapper {
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
-.max-emphasis {
-  font-size: 80px;
-  color: var(--primary-color);
-  margin-bottom: 0px;
-  margin-top: 20px;
-}
-
-.headShot-container  {
-  width: 200px;
-  height: 200px;
-  min-width: 200px;
-  min-height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.headShot-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.presentation-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.presentation-container {
-  width: 750px;
-  height: 400px;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.presentation-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
-}
-
-/* Experiences.css */
-
-
-#container {
-  padding-left: 30px;
-  padding-right: 30px;
-}
+@import "../node_modules/bootstrap/scss/bootstrap";

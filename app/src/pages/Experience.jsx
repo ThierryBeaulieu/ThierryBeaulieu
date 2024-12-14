@@ -55,7 +55,7 @@ function ExperiencePage() {
   return (
     <>
       <main>
-        <section className='home-wrapper'>
+        <section>
           {experiences.map((experience) => (
             <ExperiencePost experience={experience} key={experience} />
           ))}
