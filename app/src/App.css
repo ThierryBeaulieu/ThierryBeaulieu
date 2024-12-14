@@ -31,16 +31,10 @@ body {
 /* NavBar.css */
 
 .logo {
-  font-size: 25px;
+  font-size: 24px;
   margin: 0px;
   font-weight: 600;
-  background-color: #224FDE;
-  background: -webkit-linear-gradient(to right, #224FDE 0%, #7362E0 100%);
-  background: linear-gradient(to right, #224FDE 0%, #7362E0 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
+  color: #bf5934;
 }
 
 header {

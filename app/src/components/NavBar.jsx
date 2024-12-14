@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   return (
     <Navbar expand='lg'>
-      <Navbar.Brand as={Link} className='logo' to='/'>
+      <Navbar.Brand as={Link} className='main-title' to='/'>
         Thierry Beaulieu
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
