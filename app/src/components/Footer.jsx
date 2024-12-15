@@ -29,21 +29,24 @@ function Footer() {
 
           <ul className='nav col-md-4 justify-content-end list-unstyled d-flex'>
             <li className='ms-3'>
-              <a className='text-body-secondary' href='#'>
+              <a className='text-body-secondary' href='https://github.com/ThierryBeaulieu'>
                 <svg className='bi' width='24' height='24'>
                   <use xlinkHref='#github' />
                 </svg>
               </a>
             </li>
             <li className='ms-3'>
-              <a className='text-body-secondary' href='#'>
+              <a
+                className='text-body-secondary'
+                href='https://www.linkedin.com/in/thierrybeaulieu/'
+              >
                 <svg className='bi' width='24' height='24'>
                   <use xlinkHref='#linkedin' />
                 </svg>
               </a>
             </li>
             <li className='ms-3'>
-              <a className='text-body-secondary' href='#'>
+              <a className='text-body-secondary' href='mailto:thierry.abeaulieu@gmail.com'>
                 <svg className='bi' width='24' height='24'>
                   <use xlinkHref='#email' />
                 </svg>
