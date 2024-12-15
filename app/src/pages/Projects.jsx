@@ -5,10 +5,10 @@ function ProjectsPage() {
   return (
     <>
       <main>
-        <section className='py-5 text-center container'>
-          <div className='row py-lg-5'>
+        <section className='text-center container py-3'>
+          <div className='row py-lg-3'>
             <div className='col-lg-6 col-md-8 mx-auto'>
-              <h1 className='fw-light'>My projects</h1>
+              <h1 className='fw-bold text-body-emphasis lh-1 mb-3'>My projects</h1>
               <p className='lead text-body-secondary'>
                 The following section contains some of the projects I've worked on through the
                 years.

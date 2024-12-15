@@ -4,8 +4,8 @@ function HomePage() {
   return (
     <>
       <main>
-        <div className='container col-xxl-8 px-4 py-5'>
-          <div className='row flex-lg-row align-items-center g-5 py-5'>
+        <div className='container col-xxl-8 px-4 py-3'>
+          <div className='row flex-lg-row align-items-center g-5'>
             <div className='col-lg-6'>
               <h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
                 Programming Enthusiast
