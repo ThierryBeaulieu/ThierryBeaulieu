@@ -19,7 +19,7 @@ function HomePage() {
             <div className='col-12 col-lg-6'>
               <figure className='text-center'>
                 <img
-                  src='../assets/cqi-2024.JPG'
+                  src='../assets/headshot2.jpg'
                   className='img-fluid border rounded-3 shadow-lg w-100'
                   alt='winner of the CQI 2024'
                   loading='lazy'
