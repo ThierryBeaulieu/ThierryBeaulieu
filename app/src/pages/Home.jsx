@@ -4,46 +4,40 @@ function HomePage() {
   return (
     <>
       <main>
-        <section>
-          <div>
-            <div>
-              <h1>Hello world!</h1>
-              <p>
-                Hello! Allow me to introduce myself, I'm a software engineering student at
-                Polytechnique Montreal.
-              </p>
-
-              <p>
-                I have acquired valuable professional experience in both the gaming industry and
-                cybersecurity. These roles have significantly contributed to my skill set, providing
-                me with comprehensive knowledge and expertise in these dynamic fields.
-              </p>
-
-              <p>
-                I genuinely love diving into new tech stuff and teaming up with people. I'm always
-                up for getting my hands dirty in fresh projects. To me, software is all about being
-                creative, solving real problems, and working together. Can't wait to see what's
-                next!
-              </p>
+        <div className='container col-xxl-8 px-4 py-5'>
+          <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
+            <div className='col-10 col-sm-8 col-lg-6'>
+              <img
+                src='../assets/cqi-2024.JPG'
+                className='d-block mx-lg-auto img-fluid'
+                alt='Bootstrap Themes'
+                width='700'
+                height='500'
+                loading='lazy'
+              />
             </div>
-          </div>
 
-          <div>
-            <div>
-              <div>
-                <img alt='won-prices' src='../assets/cqi-2024.JPG'></img>
+            <div className='col-lg-6'>
+              <h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
+                Responsive left-aligned hero with image
+              </h1>
+              <p className='lead'>
+                Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                world’s most popular front-end open source toolkit, featuring Sass variables and
+                mixins, responsive grid system, extensive prebuilt components, and powerful
+                JavaScript plugins.
+              </p>
+              <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
+                <button type='button' className='btn btn-primary btn-lg px-4 me-md-2'>
+                  Primary
+                </button>
+                <button type='button' className='btn btn-outline-secondary btn-lg px-4'>
+                  Default
+                </button>
               </div>
             </div>
-            <div>
-              Winners of the 2024 edition of the Quebec Engineering Competition for the programming
-              category (CEC)
-            </div>
-            <div>
-              From left to right: Juge #1, Juge #2, Dominic Hains, Maxime Gaudreau, Gabriel Côté,
-              Thierry Beaulieu (me), Juge #3
-            </div>
           </div>
-        </section>
+        </div>
       </main>
     </>
   );
