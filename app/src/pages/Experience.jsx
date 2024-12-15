@@ -55,7 +55,7 @@ function ExperiencePage() {
   return (
     <>
       <main>
-        <section>
+        <section className='container'>
           {experiences.map((experience) => (
             <ExperiencePost experience={experience} key={experience} />
           ))}
