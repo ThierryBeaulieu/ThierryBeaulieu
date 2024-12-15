@@ -27,14 +27,23 @@ function HomePage() {
             </div>
 
             <div className='col-12 col-lg-6'>
-              <img
-                src='../assets/cqi-2024.JPG'
-                className='img-fluid border rounded-3 shadow-lg mb-4'
-                alt='winnner of the CQI 2024'
-                width='700'
-                height='500'
-                loading='lazy'
-              />
+              <figure className='text-center'>
+                <img
+                  src='../assets/cqi-2024.JPG'
+                  className='img-fluid border rounded-3 shadow-lg w-100'
+                  alt='winner of the CQI 2024'
+                  loading='lazy'
+                />
+                <figcaption className='mt-2'>
+                  <p>
+                    Winners of the 2024 edition of the Quebec Engineering Competition for the
+                    programming category (CEC)
+                    <br />
+                    From left to right: Juge #1, Juge #2, Dominic Hains, Maxime Gaudreau, Gabriel
+                    Côté, Thierry Beaulieu (me), Juge #3
+                  </p>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>
