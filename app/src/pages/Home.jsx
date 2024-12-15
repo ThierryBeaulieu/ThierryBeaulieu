@@ -36,11 +36,10 @@ function HomePage() {
                 />
                 <figcaption className='mt-2'>
                   <p>
-                    Winners of the 2024 edition of the Quebec Engineering Competition for the
-                    programming category (CEC)
-                    <br />
-                    From left to right: Juge #1, Juge #2, Dominic Hains, Maxime Gaudreau, Gabriel
-                    Côté, Thierry Beaulieu (me), Juge #3
+                    <em>
+                      Winners of the 2024 edition of the Quebec Engineering Competition for the
+                      programming category (CEC)
+                    </em>
                   </p>
                 </figcaption>
               </figure>
