@@ -33,7 +33,7 @@ jobs:
           zip release.zip ./app/dist/* -r
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: node-app
           path: release.zip
